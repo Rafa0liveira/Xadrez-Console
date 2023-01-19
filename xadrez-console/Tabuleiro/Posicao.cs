@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tabuleiro {
+namespace tabuleiro {
     internal class Posicao {
         public int Linha {
             get; set;
