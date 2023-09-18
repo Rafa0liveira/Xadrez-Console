@@ -18,9 +18,11 @@ namespace xadrez_console {
                     Console.WriteLine("XEQUE!");
                 }
             }
-            Console.WriteLine("XEQUEMATE!");
-            Console.WriteLine("Vencedor: " + partida.jogadorAtual);
-
+            else
+            {
+                Console.WriteLine("XEQUEMATE!");
+                Console.WriteLine("Vencedor: " + partida.jogadorAtual);
+            }
         }
 
         public static void imprimirPecasCapturadas(PartidaDeXadrez partida) {
